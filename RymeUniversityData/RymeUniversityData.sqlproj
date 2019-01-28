@@ -7,7 +7,7 @@
     <Name>RymeUniversityData</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
-    <ProjectGuid>{b390d0fd-7b37-44a7-bd00-ca7bd8da3132}</ProjectGuid>
+    <ProjectGuid>{b2957ec4-ebbf-4b0f-a752-f60dc583c163}</ProjectGuid>
     <DSP>Microsoft.Data.Tools.Schema.Sql.SqlAzureDatabaseSchemaProvider</DSP>
     <OutputType>Database</OutputType>
     <RootPath>
