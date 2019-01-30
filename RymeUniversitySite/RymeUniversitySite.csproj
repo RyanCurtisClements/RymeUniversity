@@ -146,6 +146,8 @@
     <Compile Include="Models\Enrollment.cs">
       <DependentUpon>RymeModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\Metadata.cs" />
+    <Compile Include="Models\PartialClasses.cs" />
     <Compile Include="Models\RymeModel.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
