@@ -12,37 +12,22 @@
     @Html.ActionLink("List of enrollments", "Index", "Enrollments")
 </div>
 
-<div class="wrapper">
-    <div class="grid grid--4a">
-        <div class="w-50">
-            <div class="grid">
-                <div class="w-50">
-                    <div class="card card--nid-12058321 card--gazette gz-national c-txt-dark card--media-top">
-                        <div class="card__media card__media--img" style="position:relative;" min-width="311px">
-                            <a href="~/Articles/News1.html">
-                                <img src="~/img/TROLL1.png" alt="Og Trelbin Mugshot" class="img-sm" />
-                            </a>
-                        </div>
-                        <div class="card__content">
-                            <div class="card__content__heading">
-                                <span class="social-icon">"Old York Times"</span>
-                            </div>
-                        </div>
-                        <div class="card__content__source">
-                            <h3 class="card__title"><a href="~/Articles/News1.html">Trolls Tricked Twice</a></h3>
-                            <p class="txt-h6"></p>
-                            <div class="card__text">
-                                <p>"Recent Ryme graduate Buford Anderson successfully tricks trolls into leaving Ansborn."</p>
-                            </div>
-                        </div>
-                        <div class="card__outro" max-width="550px" style="position:relative;">
-                            <div class="card__outro__cta-1">
-                                <a href="~/Articles/News1.html">"Read Story"</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-4">First column</div>
+        <div class="col-sm-4">Second column</div>
+        <div class="col-sm-4">Third column</div>
     </div>
 </div>
+
+@section Scripts
+{
+    <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.css.map" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-theme.min.css.map" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.css.map" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css.map" rel="stylesheet" />
+    <link href="~/Content/Site.css" rel="stylesheet" />
+}
