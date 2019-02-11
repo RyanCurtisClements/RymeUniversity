@@ -22,3 +22,143 @@ select,
 textarea {
     max-width: 280px;
 }
+
+/* INDEX VIEW */
+.wrapper {
+    margin: 0 auto;
+    max-width: 1340px;
+    padding: 1.25em;
+    position: relative;
+}
+
+.wrapper > .grid:last-of-type {
+    margin-bottom: 0;
+}
+
+.grid {
+    margin-left: -1.25em;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+.grid > [class*="w-"] {
+    float: left;
+    margin-bottom: 0;
+    min-height: 1px;
+    padding-left: 1.25em;
+    position: relative;
+}
+
+.w-50 {
+    width: 50%;
+}
+
+.c-txt-dark {
+    color: #414141;
+}
+
+.card--media-left, .card--media-top {
+    border-top: 0 !important;
+}
+
+.card--gazette, .card--news {
+    border-top: 4px solid #a51c30;
+}
+
+.card {
+    background: #fff;
+    position: relative;
+    overflow: hidden;
+}
+
+.card__media > *, .card__media > a > * {
+    display: block;
+    height: auto;
+    width: 100%;
+}
+
+.card__content__heading {
+    font-size: .875em;
+    padding: 1.25em 1.25em 0;
+    line-height: 1.2em;
+    text-transform: uppercase;
+}
+
+.card__content__source {
+    padding: 1em 1.25em;
+}
+
+.card__title {
+    font-size: 1.3125em;
+    padding-top: 0;
+}
+
+.card__text {
+    padding-top: .75em;
+}
+
+.card__text p {
+    padding: 0;
+}
+
+.card__outro {
+    padding: 0 1.25em;
+}
+
+.card__outro[max-width^="550px"] .card__outro__cta-1, .card__outro[max-width^="550px"] .card__outro__cta-2 {
+    display: block;
+    margin-left: 0;
+}
+
+.card__outro__cta-1 {
+    padding-right: 40px;
+}
+
+.card__outro__cta-1, .card__outro__cta-2, .card__outro__cta-btn {
+    display: inline-block;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+.card__outro__cta-1 a {
+    display: inline-block;
+    position: relative;
+}
+
+.card__outro__cta-1 a:after {
+    background-image: url(../img/goto.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    bottom: 0;
+    content: '';
+    height: 20px;
+    margin: auto;
+    position: absolute;
+    right: -32px;
+    speech: none;
+    top: 0;
+    width: 22px;
+}
+
+.txt-up-1, .card__outro__cta-1 a {
+    font-size: 1.125em;
+}
+
+.txt-h6 {
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.social-icon:before {
+    background-image: url(../img/OldYorkSoc.png);
+    background-repeat: no-repeat;
+    content: '';
+    height: 21px;
+    left: 0;
+    position: absolute;
+    speech: none;
+    top: 0;
+    width: 20px;
+}
